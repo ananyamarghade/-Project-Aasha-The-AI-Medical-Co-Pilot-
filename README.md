@@ -1,4 +1,4 @@
-# Project Aasha – The AI Medical Co-Pilot 🏥
+# Project Aasha – The AI Medical Co-Pilot
 > Empowering India's 1M+ ASHA and ANM workers with AI-powered decision support for rural healthcare
 
 **Team:** DimensionAI  
@@ -6,7 +6,7 @@
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#-overview)
 - [Problem Statement](#-problem-statement)
@@ -22,17 +22,17 @@
 
 ---
 
-## 🌟 Overview
+## Overview
 
 Project Aasha is a **voice-first, offline-first AI mobile application** designed to act as a medical decision-support co-pilot for India's frontline healthcare workers—ASHA (Accredited Social Health Activist) and ANM (Auxiliary Nurse Midwife) workers. 
 
 By leveraging AI-powered symptom analysis, intelligent triage, and automated documentation, Aasha bridges the gap between undertrained field workers and quality healthcare delivery in rural India.
 
-**⚠️ Important:** Aasha provides decision support only—it does not diagnose or replace medical professionals.
+**⚠️Important:** Aasha provides decision support only—it does not diagnose or replace medical professionals.
 
 ---
 
-## 🚨 Problem Statement
+## Problem Statement
 
 India's rural healthcare system relies on **1M+ ASHA and ANM workers** who serve as the backbone of community health. However, they face critical challenges:
 
@@ -46,7 +46,7 @@ These challenges result in delayed treatment, incorrect referrals, and preventab
 
 ---
 
-## 💡 Solution
+## Solution
 
 **Project Aasha** is an AI-powered mobile co-pilot that provides real-time, voice-based decision support to ASHA and ANM workers during patient interactions.
 
@@ -58,72 +58,72 @@ These challenges result in delayed treatment, incorrect referrals, and preventab
 
 ### Unique Differentiators
 
-✅ Voice-first interface in regional languages  
-✅ Offline-first AI inference engine  
-✅ Color-coded AI triage system (🟢 Green / 🟡 Yellow / 🔴 Red)  
-✅ AI as a co-pilot, not a replacement for doctors  
-✅ Automated documentation with ABHA integration  
-✅ GPS-based follow-up and referral tracking  
+- Voice-first interface in regional languages
+- Offline-first AI inference engine
+- Color-coded AI triage system (🟢 Green / 🟡 Yellow / 🔴 Red)
+- AI as a co-pilot, not a replacement for doctors
+- Automated documentation with ABHA integration
+- GPS-based follow-up and referral tracking  
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 🎤 Voice-Based Symptom Input
+### Voice-Based Symptom Input
 - Natural language processing in regional Indian languages
 - Hands-free operation for field workers
 
-### 🧠 AI Symptom Analysis
+### AI Symptom Analysis
 - NLP-powered symptom extraction and analysis
 - Medical knowledge graph for contextual understanding
 
-### 🚦 Smart Triage System
+### Smart Triage System
 - **🟢 Green:** Home care with self-management guidance
 - **🟡 Yellow:** Referral to PHC/CHC within 48 hours
 - **🔴 Red:** Emergency escalation with immediate ambulance integration
 
-### 📋 Protocol-Based Treatment Guidance
+### Protocol-Based Treatment Guidance
 - Step-by-step examination protocols
 - Evidence-based care recommendations
 
-### 📝 Automated Digital Health Records
+### Automated Digital Health Records
 - Auto-generated patient documentation
 - ABHA (Ayushman Bharat Health Account) integration
 - Secure, encrypted health data storage
 
-### 📍 GPS-Based Follow-Up System
+### GPS-Based Follow-Up System
 - Location-tagged patient visits
 - Automated follow-up reminders
 - Referral tracking and closure
 
-### 🚑 Emergency Escalation
+### Emergency Escalation
 - One-tap ambulance integration
 - Auto-generated referral notes for hospitals
 - Real-time emergency alerts
 
-### 📶 Offline Mode with Sync Support
+### Offline Mode with Sync Support
 - Full functionality without internet
 - Background sync when connectivity is restored
 - Local storage with cloud backup
 
 ---
 
-## 🔄 System Workflow
+## System Workflow
 The following workflow explains how Project Aasha assists ASHA/ANM workers during a field consultation:
 
-Step 1: Voice-Based Symptom Input
+### Step 1: Voice-Based Symptom Input
 
 The ASHA/ANM worker interacts with the app using voice in a regional language
 
 Patient symptoms are captured hands-free during the visit
 
-Step 2: AI Symptom Analysis
+### Step 2: AI Symptom Analysis
 
 NLP models extract key symptoms, duration, and severity
 
 A medical knowledge graph provides clinical context and protocol mapping
 
-Step 3: AI-Driven Risk Triage
+### Step 3: AI-Driven Risk Triage
 
 Based on symptom analysis, the system classifies patient risk into three levels:
 
@@ -133,7 +133,7 @@ Based on symptom analysis, the system classifies patient risk into three levels:
 
 🔴 Red — Emergency escalation
 
-Step 4: Guided Action & Decision Support
+### Step 4: Guided Action & Decision Support
 
 Step-by-step protocol-based examination guidance
 
@@ -141,7 +141,7 @@ Clear treatment or referral recommendations
 
 Automatic ambulance escalation for high-risk (Red) cases
 
-Step 5: Automated Documentation & Follow-Up
+### Step 5: Automated Documentation & Follow-Up
 
 Digital health record generated automatically
 
@@ -149,12 +149,12 @@ ABHA-compliant record creation
 
 GPS-tagged follow-up reminders for continuity of care
 
-✨ This workflow ensures faster decision-making, fewer incorrect referrals, and improved last-mile healthcare delivery while keeping the human worker in control.
+This workflow ensures faster decision-making, fewer incorrect referrals, and improved last-mile healthcare delivery while keeping the human worker in control.
 
 
 ---
 
-## 🛠 Technology Stack
+## Technology Stack
 
 ### Frontend
 - **Flutter** or **React Native** – Cross-platform mobile development
@@ -190,7 +190,7 @@ GPS-tagged follow-up reminders for continuity of care
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 project-aasha/
 │
 ├── mobile-app/                 # Flutter / React Native mobile application
@@ -239,7 +239,7 @@ project-aasha/
 
 ---
 
-## ⚖️ Ethical Considerations & Limitations
+## Ethical Considerations & Limitations
 
 ### Ethical Principles
 
@@ -259,7 +259,7 @@ project-aasha/
 
 ---
 
-## 🚀 Future Scope
+## Future Scope
 
 ### Short-Term (3-6 months)
 - Expand language support to 15+ Indian regional languages
@@ -312,13 +312,13 @@ MONGODB_URI=your_mongodb_connection_string
 AWS_ACCESS_KEY=your_aws_access_key
 AWS_SECRET_KEY=your_aws_secret_key
 ABHA_API_KEY=your_abha_api_key
-📄 License
+License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-🤝 Contributing
+Contributing
 We welcome contributions from the community! Please read our CONTRIBUTING.md for guidelines.
 
-📧 Contact
+Contact
 Team DimensionAI
 Team Leader: Ananya Marghade
 Email: ananyamarghade@gmail.com
